@@ -3,7 +3,7 @@ import JSBI from 'jsbi'
 // exports for external consumption
 export type BigintIsh = JSBI | bigint | string
 
-export const DEFAULT_CHAIN_ID = 5;
+export const DEFAULT_CHAIN_ID = 1;
 
 export enum ChainId {
   MAINNET = 1,
